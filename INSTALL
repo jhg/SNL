@@ -1,0 +1,40 @@
+La biblioteca SNL puede compilarse e instalarse en sistemas GNU/Linux de forma
+ facil y sin problemas ejecutando los siguientes comandos:
+
+make
+make install
+
+Recuerde que para ejecutar el comando make install debera hacerlo con
+ privilegios de superusuario mientras que make puede, y debe, ejecutarlo como
+ usuario normal. Si ya tiene instalada una version de SNL anterior y quiere
+ actualizarse debera primero desinstalar la version anterior y despues instalar
+ esta.
+
+Para desinstalar SNL de un sistema GNU/Linux hay que ejecutar con privilegios de
+ superusuario el comando:
+
+make uninstall
+
+Teniendo el codigo fuente igual que si se fuese a instalar.
+
+En otros sistemas deribados de Unix puede compilarse sin problemas pero debera
+ compilar la biblioteca de forma manual pues no se dispone de makefile para
+ otros sistemas derivados de Unix, la instalacion de libSNL.a y de la carpeta
+ SNL con los archivos de cabecera .h tambien debera efectuarla de forma manual.
+
+En sistemas Windows la compilacion tambien debera hacerse de forma manual al
+ igual que la instalacion de la misma una vez compilada en el compilador que
+ use.
+
+Para limpiar los directorias despues de la instalacion ejecute el comendo:
+
+make clean
+
+Y puede compilar dos programas de ejemplo ejecutando el comando:
+
+make ejemplo
+
+Con lo que compilara dos ejemplos que usan SNL.
+
+Jesús Hernández Gormaz
+elrinconjhg@gmail.com

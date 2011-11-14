@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="372.04724"
+   height="262.20471"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="SNl_logo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/jesus/sockets C/SNl_logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6431">
+      <stop
+         style="stop-color:#ff3c3b;stop-opacity:1;"
+         offset="0"
+         id="stop6433" />
+      <stop
+         style="stop-color:#ff3c3b;stop-opacity:0;"
+         offset="1"
+         id="stop6435" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6311">
+      <stop
+         style="stop-color:#00acff;stop-opacity:1;"
+         offset="0"
+         id="stop6313" />
+      <stop
+         style="stop-color:#00acff;stop-opacity:0;"
+         offset="1"
+         id="stop6315" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path3293"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Sstart"
+       style="overflow:visible">
+      <path
+         id="path3284"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.2) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3272"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2451">
+      <stop
+         style="stop-color:#5fd35f;stop-opacity:1;"
+         offset="0"
+         id="stop2453" />
+      <stop
+         style="stop-color:#0055d4;stop-opacity:1"
+         offset="1"
+         id="stop2455" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2401">
+      <stop
+         style="stop-color:#808000;stop-opacity:1;"
+         offset="0"
+         id="stop2403" />
+      <stop
+         style="stop-color:#808000;stop-opacity:0;"
+         offset="1"
+         id="stop2405" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2401"
+       id="radialGradient2407"
+       cx="92.696983"
+       cy="197.39561"
+       fx="92.696983"
+       fy="197.39561"
+       r="148.48538"
+       gradientTransform="matrix(-1.9997709e-6,0.5520932,-1.5274486,2.5628363e-6,477.57466,60.030268)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2401"
+       id="radialGradient2409"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.9997709e-6,0.5520932,-1.5274486,2.5628363e-6,477.57466,60.030268)"
+       cx="92.696983"
+       cy="197.39561"
+       fx="92.696983"
+       fy="197.39561"
+       r="148.48538" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2401"
+       id="radialGradient2411"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.9997709e-6,0.5520932,-1.5274486,2.5628363e-6,477.57466,60.030268)"
+       cx="92.696983"
+       cy="197.39561"
+       fx="92.696983"
+       fy="197.39561"
+       r="148.48538" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2401"
+       id="radialGradient2413"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.9997709e-6,0.5520932,-1.5274486,2.5628363e-6,477.57466,60.030268)"
+       cx="92.696983"
+       cy="197.39561"
+       fx="92.696983"
+       fy="197.39561"
+       r="148.48538" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2451"
+       id="radialGradient2457"
+       cx="205.1711"
+       cy="185.42029"
+       fx="205.1711"
+       fy="185.42029"
+       r="128.17969"
+       gradientTransform="matrix(2.1937846,-0.3233561,8.5136117e-2,0.3897403,-248.61729,216.72968)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2451"
+       id="radialGradient2459"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1937846,-0.3233561,8.5136117e-2,0.3897403,-248.61729,216.72968)"
+       cx="205.1711"
+       cy="185.42029"
+       fx="205.1711"
+       fy="185.42029"
+       r="128.17969" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2451"
+       id="radialGradient2461"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1937846,-0.3233561,8.5136117e-2,0.3897403,-248.61729,216.72968)"
+       cx="205.1711"
+       cy="185.42029"
+       fx="205.1711"
+       fy="185.42029"
+       r="128.17969" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2451"
+       id="radialGradient2463"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1937846,-0.3233561,8.5136117e-2,0.3897403,-248.61729,216.72968)"
+       cx="205.1711"
+       cy="185.42029"
+       fx="205.1711"
+       fy="185.42029"
+       r="128.17969" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6311"
+       id="linearGradient6317"
+       x1="7.9564143"
+       y1="131.90462"
+       x2="369.6583"
+       y2="131.90462"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6431"
+       id="radialGradient6439"
+       cx="188.80743"
+       cy="131.90475"
+       fx="188.80743"
+       fy="131.90475"
+       r="180.85075"
+       gradientTransform="matrix(1,0,0,0.4660741,0,70.427365)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter6453">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.44443215"
+         id="feGaussianBlur6455" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2401"
+       id="radialGradient6478"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.9997709e-6,0.5520932,-1.5274486,2.5628363e-6,477.57466,60.030268)"
+       cx="92.696983"
+       cy="197.39561"
+       fx="92.696983"
+       fy="197.39561"
+       r="148.48538" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2401"
+       id="radialGradient6480"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.9997709e-6,0.5520932,-1.5274486,2.5628363e-6,477.57466,60.030268)"
+       cx="92.696983"
+       cy="197.39561"
+       fx="92.696983"
+       fy="197.39561"
+       r="148.48538" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2451"
+       id="radialGradient6482"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1937846,-0.3233561,8.5136117e-2,0.3897403,-248.61729,216.72968)"
+       cx="205.1711"
+       cy="185.42029"
+       fx="205.1711"
+       fy="185.42029"
+       r="128.17969" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2451"
+       id="radialGradient6484"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1937846,-0.3233561,8.5136117e-2,0.3897403,-248.61729,216.72968)"
+       cx="205.1711"
+       cy="185.42029"
+       fx="205.1711"
+       fy="185.42029"
+       r="128.17969" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="212.2078"
+     inkscape:cy="143.91548"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     borderlayer="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="825"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Logotipo de Simple network library</dc:title>
+        <dc:date>22/3/2009</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jesús Hernández Gormaz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Jesús Hernández Gormaz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:language>es-ES</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>SNL</rdf:li>
+            <rdf:li>simple</rdf:li>
+            <rdf:li>network</rdf:li>
+            <rdf:li>library</rdf:li>
+            <rdf:li>biblioteca</rdf:li>
+            <rdf:li>red</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Logotipo de la biblioteca Simple Network Library</dc:description>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:1;fill:url(#linearGradient6317);fill-opacity:1;fill-rule:evenodd;stroke:url(#radialGradient6439);stroke-width:4.33479977;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#Arrow1Lstart);marker-mid:none;marker-end:url(#Arrow2Lend);stroke-miterlimit:4;stroke-dasharray:4.3347997, 52.01759641;stroke-dashoffset:43.3479855;stroke-opacity:1;filter:url(#filter6453)"
+       d="M 203.33115,64.182158 C 662.12496,86.277346 13.604403,205.66882 13.604403,205.66882"
+       id="path2497"
+       transform="matrix(0.9709349,0,0,1.2234609,4.930341,-25.34003)" />
+    <g
+       id="g6467"
+       transform="matrix(1.0827587,0,0,1.2856869,-22.700383,-53.014218)">
+      <g
+         id="g6457">
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot2393"
+           style="font-size:4px;font-style:normal;font-weight:normal;fill:url(#radialGradient6480);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           transform="matrix(1.0663297,0,0,1.3334102,-5.1302239,-11.150165)"><flowRegion
+             id="flowRegion2395"
+             style="fill:url(#radialGradient2411);fill-opacity:1"><rect
+               id="rect2397"
+               width="335.87573"
+               height="217.68787"
+               x="17.172594"
+               y="20.778254"
+               style="fill:url(#radialGradient2409);fill-opacity:1" /></flowRegion><flowPara
+             id="flowPara2399"
+             style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:url(#radialGradient6478);fill-opacity:1;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L Bold">SNL</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="matrix(1.1477642,0,0,1.3980968,-32.696832,-81.914452)"
+         style="font-size:4px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:url(#radialGradient6484);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         id="flowRoot2443"
+         xml:space="preserve"><flowRegion
+           style="fill:url(#radialGradient2461);fill-opacity:1"
+           id="flowRegion2445"><rect
+             style="text-align:center;text-anchor:middle;fill:url(#radialGradient2459);fill-opacity:1"
+             y="195.53464"
+             x="41.416256"
+             height="40.911175"
+             width="305.57117"
+             id="rect2447" /></flowRegion><flowPara
+           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#radialGradient6482);fill-opacity:1;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L Bold"
+           id="flowPara2449">Simple Network Library</flowPara></flowRoot>    </g>
+  </g>
+</svg>

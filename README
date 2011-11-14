@@ -1,0 +1,79 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Simple network library 0.0.0
+
+La biblioteca Simple network library (SNL) proporciona al programador las
+ funciones necesarias para escribir aplicaciones que se comuniquen a traves
+ de la red.
+
+Puede ponerse en contacto con el autor de SNL, Jesús Hernández Gormaz, en el
+ correo electronico elrinconjhg@gmail.com para temas sobre SNL. SNL es software
+ libre y esta bajo la licencia GPL, si realiza modificaciones en el codigofuente
+ de SNL le agradeceria que enviara los cambios al autor para incluirlos a la
+ versión oficial de SNL mantenida por el autor.
+
+Para compilar SNL en sistemas GNU/Linux o sistemas derivados de Unix use un
+ makefile similar a como se muestra a continuacion:
+ 
+CFLAGS=-L/usr/lib -I/usr/include/SNL
+
+programa: programa.o
+	$(CC) $(CFLAGS) -o $@ $^ -lSNL
+	$(RM) *.o
+
+programa.o: programa.c
+	$(CC) $(CFLAGS) -c -o $@ $^
+
+Esto puede variar en sistemas operativos derivados de Unix diferentes de
+ GNU/Linux o en algunas distribuciones de GNU/Linux.
+
+El makefile que se encarga de instalar SNL tambien sirve para su desinstalación,
+ para esto debera ejecutar en una terminal (estando en el directorio donde esten
+ los archivos de SNL como si se fuese a instalar) el comando (con privilegios de
+ superusuario):
+
+make uninstall
+
+Con lo que los archivos de SNL instalados en el sistema se eliminaran.
+
+Junto al codigo de SNL se encuentra un programa de ejemplo que usa dicha
+ biblioteca y que es compilado justo al acabar de instalar SNL para comprobar
+ la correcta instalacion, este programa de ejemplo tambien es software libre
+ bajo la licencia GPL y lo encontrara en la carpeta test junto al resto de
+ carpetas en las que se organiza el codigo de SNL.
+
+La biblioteca SNL en principio es portable a sistemas windows, pero actualmente
+ no se ha compilado ni probado en dicho sistema mas el codigo fuente ha sido
+ mantenido portable para que pueda ser compilado en sistemas windows. El
+ makefile no es portable a sistemas windows por lo que no le servira para
+ compilar e instalar SNL en sistemas windows. Esta pensado compilar SNL para
+ sistemas windows e incluir lo necesario para que pueda ser compilada e
+ instalada en windows, pero actualmente no existe un makefile ni similar para
+ dichos sistemas.
+
+Aunque SNL en su version 0.0.0 funciona y puede ser usada sin problemas, aun
+ esta en pruebas, si usandola le da algun error comuniquelo al autor de la
+ biblioteca para poder corregir los errores que se encuentren. SNL cuenta con
+ una serie de funciones y unas lineas de codigo con las que evitar errores
+ e intentar recuperarse de los mismo o evitar errores peores, si alguna de las
+ funciones de SNL devuelve -2 es que dicha función ha sido de sactivada y no
+ puede ser ejecutada para evitar errores peores que los que hayan llevado a
+ dicha situación, este bloqueo puede anularse usando una función de emergencia
+ creada para casos en los que sea necesario saltarse estas medidas de seguridad
+ y estabilidad y para usarse como ultima alternativa, el uso de dicha función
+ podria provocar que el programa que se estuviese ejecutando se volviese
+ inestable. Tambien hay una función con la que obtener el codigo de error del
+ ultimo error producido, este codigo de error puede ser de gran ayuda para
+ corregir errores de la biblioteca.
+
+Gracias por usar SNL y espero que le sea de utilidad.
+
+Jesús Hernández Gormaz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAknZB0kACgkQ4FLrGhzwR1RohQCeIFXmSFNWAChdxx0sTnFBlCul
+Cj4AoLIkOhYSs2IptvQvGysFREbGp2xq
+=Nei4
+-----END PGP SIGNATURE-----
