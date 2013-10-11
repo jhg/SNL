@@ -1,22 +1,11 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
 
 Simple network library abreviada por sus siglas como SNL es una obra creada
  originalmente por Jesús Hernández Gormaz comenzando su creación el 22 de Marzo
- del año 2009 d.c. y finalizando la primera versión de la biblioteca (0.0.0) el
- 5 de Abril del año 2009 d.c. licenciando la biblioteca bajo la licencia
+ del año 2009 y finalizando la primera versión de la biblioteca (0.0.0) el
+ 5 de Abril del año 2009 licenciando la biblioteca bajo la licencia
  GNU General Public License (conocida por sus siglas GPL) lo que significa que
  SNL es software libre.
 
-Contacto:
-- - Jesús Hernández Gormaz
-Correo electronico: elrinconjhg@gmail.com
+Autores:
+Jesús Hernández Gormaz <jhg.jesus@gmail.com>
 
-Jesús Hernández Gormaz
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.9 (GNU/Linux)
-
-iEYEARECAAYFAknZCXAACgkQ4FLrGhzwR1Sk8ACfao2NW9HAIu9KoakSTXwpIuva
-L/AAoMMAApAIumiW08myajFGm6GLJaSN
-=qmeR
------END PGP SIGNATURE-----
