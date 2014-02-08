@@ -57,8 +57,8 @@ Cambridge, MA 02139, EEUU.
 #define NOMBRE_BIBLIOTECA "Simple network library"
 #define SIGLAS_BIBLIOTECA "SNL"
 #define VERSION_BIBLIOTECA "0.0.1"
-#define FECHA_CREACION_BIBLIOTECA "Domingo 22 de Marzo del 2009 (22/3/2009) siglo XXI D.C."
-#define AUTOR_BIBLIOTECA "Jesús Hernández Gormaz"
+#define FECHA_CREACION_BIBLIOTECA "Domingo 22 de Marzo del 2009"
+#define AUTOR_BIBLIOTECA "Jesús Hernández Gormaz <jhg.jesus@gmail.com>"
 
 /*estructura de grupo de sockets*/
 struct grupo_sockets{
