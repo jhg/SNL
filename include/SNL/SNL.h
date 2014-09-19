@@ -1,7 +1,7 @@
 /*
 Simple network library Copyright (C) 2009 Jesús Hernández Gormaz
 
-Fecha de creacion: 22 de marzo del 2009 (Siglo XXI)
+Fecha de creacion: 22 de marzo del 2009
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License as
@@ -71,38 +71,12 @@ typedef void * SNL_datos;
 /*Funciones de informacion interna de la libreria y de mantenimiento y
  recuperacion y notificacion de errores de la misma*/
 
-/*añadiendo compatibiilidad de las funciones con programas en C++ para que
+/*añadiendo compatibilidad de las funciones con programas en C++ para que
  puedan ser usadas en los mismos*/ 
 #ifdef _cplusplus
 extern "C"
 {
 #endif
-
-/*Restaura el nivel de ejecucion de las funciones de la biblioteca de modo
- que si por errores algunas funciones o todas las funciones de la bilioteca
- quedaron sin poder ejecutarse podran volver a ejecutarse todas las
- funciones de la biblioteca, esto podria hacer que la ejecución de la
- biblioteca sea inestable y podria provocar errores igual o más graves que
- los que han originado la restricción de la ejecución de alguna o todas
- las funciones. El nivel de ejecución de las funciones de la biblioteca que
- trata esta función no tiene ninguna relación con el nivel de ejecución
- de aplicaciones que pueda haber en cada sistema operativo, solo es una
- forma que tiene la biblioteca de tratar y evitar errores internos de la
- biblioteca. No se recomienda el uso de esta función deliberadamente.
- Un error en la ejecución de esta función repercutiria en no poder usar
- absolutamente ninguna función de la biblioteca, ni esta. Si esta funcion
- devuelve -2 el acabar la ejecución del programa deberia tenerse en
- cuenta.*/
-extern int SNL_emergencia(void);
-
-/*Devuelve el codigo de error del ultimo error que se produjo en las
- funciones de la biblioteca*/
-extern unsigned int SNL_ultimo_error(void);
-
-/*Devuelve 0 si el ultimo error que se produjo en las funciones de la
- biblioteca ha sido comprobado ya (con la funcion SNL_ultimo_error por
- ejemplo) y -1 en caso contrario*/
-extern int SNL_comprobado_ultimo_error(void);
 
 /*Recive un puntero a una cadena de caracteres y la longitud que admite
  y copia en el una cadena de caracteres con informacion sobre la libreria

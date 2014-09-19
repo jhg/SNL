@@ -1,7 +1,7 @@
 /*
 chatserverSNL Copyright (C) 2009 Jesús Hernández Gormaz
 
-Fecha de creacion: 8 de Junio del 2009 (Siglo XXI)
+Fecha de creacion: 8 de Junio del 2009
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License as
