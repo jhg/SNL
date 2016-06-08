@@ -56,7 +56,7 @@ Cambridge, MA 02139, EEUU.
 /*macros con informacion sobre la biblioteca*/
 #define NOMBRE_BIBLIOTECA "Simple network library"
 #define SIGLAS_BIBLIOTECA "SNL"
-#define VERSION_BIBLIOTECA "0.0.1"
+#define VERSION_BIBLIOTECA "0.0.2"
 #define FECHA_CREACION_BIBLIOTECA "Domingo 22 de Marzo del 2009"
 #define AUTOR_BIBLIOTECA "Jesús Hernández Gormaz <jhg.jesus@gmail.com>"
 

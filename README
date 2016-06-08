@@ -1,4 +1,4 @@
-Simple network library 0.0.0
+Simple network library 0.0.2
 
 La biblioteca Simple network library (SNL) proporciona al programador las
  funciones necesarias para escribir aplicaciones que se comuniquen a traves
@@ -43,7 +43,7 @@ La biblioteca SNL en principio es portable a sistemas windows, pero actualmente
  instalada en windows, pero actualmente no existe un makefile ni similar para
  dichos sistemas.
 
-Aunque SNL en su version 0.0.0 funciona y puede ser usada sin problemas, aun
+Aunque SNL en su version 0.0.2 funciona y puede ser usada sin problemas, aun
  esta en pruebas, si usandola le da algun error comuniquelo al autor de la
  biblioteca para poder corregir los errores que se encuentren. SNL cuenta con
  una serie de funciones y unas lineas de codigo con las que evitar errores
