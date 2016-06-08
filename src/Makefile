@@ -47,6 +47,7 @@ libSNL.a: SNL.o
 	@echo Empaquetando el codigo objeto en la biblioteca estatica
 	$(AR) rs $@ $^
 	@echo Moviendo la biblioteca de la carpeta del codigo fuente a la carpeta de las bibliotecas estaticas
+	if [ ! -d ../lib ]; then mkdir ../lib; fi
 	mv $@ ../lib/
 	@echo La biblioteca $@ ha sido compilada
 

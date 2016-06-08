@@ -44,6 +44,7 @@ INSTALL_INCLUDE = $(INSTALL)/include/SNL
 #### End of system configuration section.   ####
 
 all:
+	if [ ! -d lib ]; then mkdir lib; fi
 	@echo Compilando Simple Network Library version 0.0.1
 	@$(MAKE) -C ./src/
 	@echo SNL compilada
@@ -85,5 +86,4 @@ clean:
 	$(MAKE) -C ./src/ clean
 	$(MAKE) -C ./test/ clean
 	echo Borrando los archivos innecesarios de la carpeta lib
-	cd lib ; $(RM) -f *.o *.a *~ \#* core
-
+	$(RM) -rf lib

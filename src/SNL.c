@@ -153,7 +153,6 @@ if(nuevo != NULL){
 	nuevo->tiempo_espera.tv_usec= 500000;
 }else{
 	nuevo= NULL;
-	SNL_informar_errores(NERROR, 100);
 }
 return nuevo;
 }
@@ -410,7 +409,6 @@ if(direccion == NULL){
 direccion_internet.s_addr= inet_addr(direccion);
 if(direccion_internet.s_addr == -1){
 	r= 1;
-	SNL_informar_errores(NERROR, 300);
 }else{
 	/*rellenando la estructura de la direccion de socket*/
 	direccion_socket.sin_family = AF_INET;
@@ -420,11 +418,9 @@ if(direccion_internet.s_addr == -1){
 	descriptor= socket(AF_INET, SOCK_STREAM, 0);
 	if(descriptor == -1){
 		r= 2;
-		SNL_informar_errores(NERROR, 300);
 	}else{
 		if(connect(descriptor, (struct sockaddr *)&direccion_socket, sizeof(struct sockaddr)) == -1){
 			r= 3;
-			SNL_informar_errores(NERROR, 300);
 		}
 	}
 }
@@ -445,7 +441,6 @@ direccion_socket.sin_addr.s_addr = INADDR_ANY;
 descriptor= socket(AF_INET, SOCK_DGRAM, 0);
 if(bind(descriptor, (struct sockaddr *)&direccion_socket, sizeof(struct sockaddr)) == -1){
 	r= 1;
-	SNL_informar_errores(NERROR, 300);
 }
 if(r != 0){
 	return -1;
@@ -505,7 +500,6 @@ if(direccion == NULL){
 }
 if(direccion_internet.s_addr == -1){
 	r= 1;
-	SNL_informar_errores(NERROR, 300);
 }else{
 	/*rellenando la estructura de la direccion de socket*/
 	direccion_socket.sin_family = AF_INET;
@@ -515,16 +509,13 @@ if(direccion_internet.s_addr == -1){
 	descriptor= socket(AF_INET, SOCK_STREAM, 0);
 	if(descriptor == -1){
 		r= 2;
-		SNL_informar_errores(NERROR, 300);
 	}else{
 		if(bind(descriptor, (struct sockaddr *)&direccion_socket, sizeof(struct sockaddr)) == -1){
 			r= 3;
-			SNL_informar_errores(NERROR, 300);
 		}else{
 			r= listen(descriptor, cola);
 			if(r == -1){
 				r= 4;
-				SNL_informar_errores(NERROR, 300);
 			}
 		}
 	}
@@ -553,7 +544,6 @@ if(descriptor != -1){
 		*puerto_remoto= ntohs(direccion_socket.sin_port);
 	}
 }else{
-	SNL_informar_errores(NERROR, 300);
 }
 return descriptor;
 }
@@ -589,7 +579,6 @@ struct sockaddr_in6 direccion_socket;
 /*pasando la cadena con la IP con los bytes separados por puntos a un numero de 32 bits*/
 if(inet_pton(AF_INET6, direccion, &direccion_internet) != 1){
 	r= 1;
-	SNL_informar_errores(NERROR, 300);
 }else{
 	/*rellenando la estructura de la direccion de socket*/
 	direccion_socket.sin6_family = AF_INET6;
@@ -599,11 +588,9 @@ if(inet_pton(AF_INET6, direccion, &direccion_internet) != 1){
 	descriptor= socket(AF_INET6, SOCK_STREAM, 0);
 	if(descriptor == -1){
 		r= 2;
-		SNL_informar_errores(NERROR, 300);
 	}else{
 		if(connect(descriptor, (struct sockaddr *)&direccion_socket, sizeof(struct sockaddr)) == -1){
 			r= 3;
-			SNL_informar_errores(NERROR, 300);
 		}
 	}
 }
@@ -624,7 +611,6 @@ direccion_socket.sin6_addr= in6addr_any;
 descriptor= socket(AF_INET6, SOCK_DGRAM, 0);
 if(bind(descriptor, (struct sockaddr *)&direccion_socket, sizeof(struct sockaddr_in6)) == -1){
 	r= 1;
-	SNL_informar_errores(NERROR, 300);
 }
 if(r != 0){
 	return -1;
@@ -681,7 +667,6 @@ struct sockaddr_in6 direccion_socket;
 /*pasando la cadena con la IP con los bytes separados por puntos a un numero de 32 bits*/
 if(inet_pton(AF_INET6, direccion, &direccion_internet) != 1){
 	r= 1;
-	SNL_informar_errores(NERROR, 300);
 }else{
 	/*rellenando la estructura de la direccion de socket*/
 	direccion_socket.sin6_family = AF_INET6;
@@ -691,16 +676,13 @@ if(inet_pton(AF_INET6, direccion, &direccion_internet) != 1){
 	descriptor= socket(AF_INET6, SOCK_STREAM, 0);
 	if(descriptor == -1){
 		r= 2;
-		SNL_informar_errores(NERROR, 300);
 	}else{
 		if(bind(descriptor, (struct sockaddr *)&direccion_socket, sizeof(struct sockaddr_in6)) == -1){
 			r= 3;
-			SNL_informar_errores(NERROR, 300);
 		}else{
 			r= listen(descriptor, cola);
 			if(r == -1){
 				r= 4;
-				SNL_informar_errores(NERROR, 300);
 			}
 		}
 	}
@@ -726,7 +708,6 @@ if(descriptor != -1){
 		*puerto_remoto= ntohs(direccion_socket.sin6_port);
 	}
 }else{
-	SNL_informar_errores(NERROR, 300);
 }
 return descriptor;
 }
@@ -744,7 +725,6 @@ if(conexion != SIN_CONEXION){
 #endif
 	if(r != 0){
 		r= -1;
-		SNL_informar_errores(NERROR, 400);
 	}
 }else{
 	r=0;
@@ -811,7 +791,6 @@ extern int SNL_iniciar_W(void){
 register int r=0;
 WSADATA wsaData;
 if(WSAStartup(MAKEWORD(2, 0), &wsaData) != 0){
-	SNL_informar_errores(NERROR, 2);
 	r= -1;
 }else{
 	if(atexit(SNL_acabar_W) == 0){
