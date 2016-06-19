@@ -42,7 +42,7 @@ VPATH = .
 CC=gcc
 #### End of system configuration section.   ####
 
-CFLAGS=-L/usr/lib -I/usr/include/SNL
+CFLAGS=-L/usr/lib -L../lib -I/usr/include/SNL -I../include/SNL/
 
 all: testSNL chatserverSNL
 

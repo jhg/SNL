@@ -35,7 +35,7 @@ Cambridge, MA 02139, EEUU.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <SNL/SNL.h>
+#include <SNL.h>
 
 int main(int argc, char *argv[]){
 if(argc < 2){

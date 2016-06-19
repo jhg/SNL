@@ -35,7 +35,7 @@ Cambridge, MA 02139, EEUU.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <SNL/SNL.h>
+#include <SNL.h>
 
 /*tipo de variable enumeracion para especificar un color de algo que el
  programa debe comunicar al usuario*/
